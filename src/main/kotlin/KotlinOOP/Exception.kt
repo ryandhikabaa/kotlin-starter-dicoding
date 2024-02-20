@@ -15,6 +15,7 @@ fun main(){
             0 -> println("Catch block NullPointerException terpanggil !")
             -1 -> println("Catch block NumberFormatException terpanggil !")
             else -> println(someIntValue)
+
         }
     }
 }
