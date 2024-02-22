@@ -1,4 +1,4 @@
-package org.example.KotlinOOP.SpecialClassCollection
+package org.example.SpecialClassCollection
 
 
 class User(val name : String, val age : Int)

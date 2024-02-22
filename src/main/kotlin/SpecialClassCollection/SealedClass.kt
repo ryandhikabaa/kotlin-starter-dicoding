@@ -1,4 +1,4 @@
-package org.example.KotlinOOP.SpecialClassCollection
+package org.example.SpecialClassCollection
 
 sealed class Result {
     sealed class Success(val data: Any) : Result()

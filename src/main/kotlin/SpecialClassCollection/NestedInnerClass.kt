@@ -1,4 +1,4 @@
-package org.example.KotlinOOP.SpecialClassCollection
+package org.example.SpecialClassCollection
 
 class House {
     // Properti atau anggota outer class

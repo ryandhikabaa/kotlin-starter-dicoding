@@ -1,4 +1,4 @@
-package org.example.KotlinOOP.SpecialClassCollection
+package org.example.SpecialClassCollection
 
 fun main(){
     val dataUser = DataUser("nrohmen", 17)

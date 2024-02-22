@@ -1,4 +1,4 @@
-package org.example.KotlinOOP.SpecialClassCollection
+package org.example.SpecialClassCollection
 
 
 // Singleton Object
@@ -20,6 +20,6 @@ class Library {
 fun main() {
     CentralLibrary.borrowBookById(21)
 
-    Library.Companion.borrowBookById(21)
+    Library.borrowBookById(21)
     Library.borrowBookById(21)
 }

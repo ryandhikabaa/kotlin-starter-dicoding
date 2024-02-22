@@ -10,11 +10,10 @@ enum class Rainbow(val color : String) {
     VIOLET("Violet")
 }
 
-fun main (){
-    var a = 10
-
-    when (a) {
-        a + a -> print("Ok")
-    }
+fun doSomething(vararg input: Int): Float {
+    return ((input.sum() / input.size).toFloat())
 }
-
+fun main(){
+    val result = doSomething(1, 2, 3, 4, 5)
+    print(result)
+}
